@@ -11,7 +11,7 @@
 -	[Limitations](#limitations)
 -	[How to Reproduce](#how-to-reproduce)
 -	[Dashboard Pages](#dashboard-pages)
--	[Screenshots](#screenshots)
+
 ### Project Overview
 This  is an End-to-end data analysis project covering data cleaning, SQL analysis, and an interactive Power BI dashboard, built on the Olist Brazilian E-Commerce public dataset. This project aims to provide insights into the sales performance of olist Brazilian company, over the years by analzying various aspect of the sales data, we seek to identify trends, make data driven recommendations and gain better understanding of the company’s performance.
 
