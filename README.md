@@ -15,18 +15,26 @@
 ### Project Overview
 This  is an End-to-end data analysis project covering data cleaning, SQL analysis, and an interactive Power BI dashboard, built on the Olist Brazilian E-Commerce public dataset. This project aims to provide insights into the sales performance of olist Brazilian company, over the years by analzying various aspect of the sales data, we seek to identify trends, make data driven recommendations and gain better understanding of the company’s performance.
 
+### Dashboard screenshots
+
+<img width="827" height="460" alt="Screenshot 2026-10-03 111158 1" src="https://github.com/user-attachments/assets/6f160e8b-d3bf-4f0a-a846-2901addfd7c0" />
+<img width="870" height="488" alt="Screenshot 2026-10-02 043718 2" src="https://github.com/user-attachments/assets/d8866ee3-d8b2-44b6-9471-fcc38a92c865" />
+<img width="831" height="496" alt="Screenshot 2026-10-02 044720 7" src="https://github.com/user-attachments/assets/7c6c4500-983e-4b5b-9024-7002173b1c2e" />
+
+Full 7 screenshots available in dashboard screenshots file
+
 ### 🔗 Live Dashboard
 
-[View the interactive Power BI dashboard](PASTE-YOUR-PUBLISH-TO-WEB-LINK-HERE)
+[View the interactive Power BI dashboard](https://drive.google.com/file/d/1FZiVoCng0e0qu6IIU6bRVHX9VdaKKWEU/view?usp=sharing)
 
-*(If the link above doesn't load, see the screenshots below or the PDF export in `/powerbi`.)*
+*(If the link above doesn't load, see the screenshots in the dashboard screenshots file.)*
 
 ---
 ### Business Problem
 
 Olist is a Brazilian e-commerce marketplace connecting small businesses to major online marketplaces. This project analyzes ~100,000 orders (2016–2018) to answer five business questions:
 
-1. How does actual delivery time compare to the estimated delivery date, and does it vary by state or seller?
+1. How does actual delivery time compare to the estimated delivery date, and does it vary by customers state or sellers seller?
 2. How has order volume and average order value changed month over month?
 3. Which product categories drive the most revenue, and how does freight cost vary by category?
 4. What payment methods do customers use, and does installment usage relate to order value?
@@ -64,7 +72,7 @@ Full scripts are in `/sql`. Summary of the approach:
 ## Key Findings
 
 **1. Delivery Performance**
-Olist  has a strong delivery performance overall. out of 96k delivered orders, only 6.7%  arrived late, meaning that 92.23% were on time. on average orders 12 days earlier that the estimated date of delivery, so customer expectation is being exceeded. Identified also that late deliveries are concentrated in specific customer and sellers states highlighting key regions for logistics optimization to further improve the 92% on time rate. High lateness in Northern states AL, MA, SE and seller states AM suggests logistical challenges in the North/Northeast Brazil; possibly longer distance from distribution centers, limited carrier coverage  or infrastructural  issues.
+Olist  has a strong delivery performance overall. out of 96k delivered orders, only 6.7%  arrived late, meaning that 92.23% were on time. on average orders 12 days earlier that the estimated date of delivery, so customer expectation is being exceeded. Identified also that late deliveries are concentrated in specific customers and sellers states highlighting key regions for logistics optimization to further improve the 92% on time rate. High lateness in Northern states AL, MA, SE and seller states AM suggests logistical challenges in the North/Northeast Brazil; possibly longer distance from distribution centers, limited carrier coverage  or infrastructural  issues.
 
 **2. Revenue & Order Trends**
 Order volume grew roughly 25x from the platform's early months to its peak (late 2017), while average order value stayed flat in the R$150–170 range throughout. Growth was driven by acquisition, not bigger baskets. November 2017 shows a clear spike (~+53–61%), consistent with Black Friday.
